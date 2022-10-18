@@ -1,0 +1,60 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #120024;
+}
+
+.logo img {
+    position: absolute;
+    width: 125px;
+    height: 123px;
+    left: 1262px;
+    top: 86px;
+}
+
+.box {
+    position: absolute;
+    width: 886px;
+    height: 594px;
+    left: 267px;
+    top: 230px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.py {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        position: relative;
+        width: 414px;
+        height: 896px;
+        background: #120024;
+    }
+    .logo img {
+        position: absolute;
+        width: 50px;
+        height: 49.2px;
+        left: 345px;
+        top: 39px;
+    }
+    .box {
+        position: absolute;
+        width: 283px;
+        height: 507px;
+        left: 66px;
+        top: 166px;
+        background: #D9D9D9;
+        border-radius: 5px;
+    }
+}

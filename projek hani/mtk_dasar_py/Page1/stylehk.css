@@ -1,0 +1,61 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #120024;
+}
+
+.logo-untirta img {
+    position: absolute;
+    width: 125px;
+    height: 123px;
+    left: 1262px;
+    top: 86px;
+}
+
+.kotak {
+    position: absolute;
+    width: 886px;
+    height: 594px;
+    left: 267px;
+    top: 230px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.kotak {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.py {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 520px) {
+    .logo-untirta img {
+        position: absolute;
+        width: 50px;
+        height: 49.2px;
+        left: 345px;
+        top: 39px;
+    }
+    .kotak {
+        position: absolute;
+        width: 283px;
+        height: 507px;
+        left: 66px;
+        top: 166px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .py {
+        margin-top: 10px;
+    }
+}

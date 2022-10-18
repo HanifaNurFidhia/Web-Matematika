@@ -1,0 +1,207 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #120024;
+}
+
+.logo-untirta img {
+    position: absolute;
+    width: 125px;
+    height: 123px;
+    left: 1262px;
+    top: 38px;
+}
+
+.judul h1 {
+    position: absolute;
+    width: 676px;
+    height: 55px;
+    left: 382px;
+    top: 285px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.satu {
+    position: absolute;
+    width: 171px;
+    height: 23px;
+    left: 350px;
+    top: 534px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    opacity: 80%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dua {
+    position: absolute;
+    width: 131px;
+    height: 23px;
+    left: 635px;
+    top: 534px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.tiga {
+    position: absolute;
+    width: 107px;
+    height: 23px;
+    left: 920px;
+    top: 534px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.empat {
+    position: absolute;
+    width: 115px;
+    height: 23px;
+    left: 485px;
+    top: 695px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.lima {
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 775px;
+    top: 695px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        position: relative;
+        width: 414px;
+        height: 896px;
+        background: #120024;
+    }
+    .logo-untirta img {
+        position: absolute;
+        width: 50px;
+        height: 49.2px;
+        left: 345px;
+        top: 42px;
+    }
+    .judul h1 {
+        position: absolute;
+        width: 377px;
+        height: 55px;
+        left: 18px;
+        top: 136px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .satu {
+        position: absolute;
+        width: 171px;
+        height: 23px;
+        left: 122px;
+        top: 297px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .dua {
+        position: absolute;
+        width: 131px;
+        height: 23px;
+        left: 122px;
+        top: 419px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .tiga {
+        position: absolute;
+        width: 107px;
+        height: 23px;
+        left: 121px;
+        top: 541px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .empat {
+        position: absolute;
+        width: 115px;
+        height: 23px;
+        left: 122px;
+        top: 663px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .lima {
+        position: absolute;
+        width: 99px;
+        height: 23px;
+        left: 122px;
+        top: 785px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+}
